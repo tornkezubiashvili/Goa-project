@@ -324,7 +324,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
     flex-direction: column;
 }
 
@@ -495,6 +494,7 @@ header {
 
     main {
         gap: 50px;
+        padding: 0px 20px;
     }
 
     .section2-img {
