@@ -315,9 +315,30 @@ header {
 }
 
 
-#about{
+#about {
     margin-top: 100px;
 }
+
+.opinions-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.video-div {
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.video-div video {
+    width: 400px;
+    border-radius: 30px;
+}
+
 @media (max-width: 1500px) {
 
     .section1 {
@@ -397,6 +418,12 @@ header {
 
     .Mentors-div {
         width: 900px;
+    }
+
+    .video-div {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -554,11 +581,16 @@ header {
         width: 50px;
         height: 50px;
     }
-    .Mentors-div{
+
+    .Mentors-div {
         flex-direction: column;
         gap: 20px;
         align-items: center;
         justify-content: center;
+    }
+
+    .video-div video {
+        width: 320px;
     }
 
 }
