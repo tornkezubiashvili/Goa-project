@@ -182,6 +182,142 @@ header {
     height: 450px;
 }
 
+.Courses-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    color: rgb(190, 190, 190);
+}
+
+.Courses {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.Courses-div1 {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Courses-div1-box1 {
+    width: 450px;
+    height: 770px;
+    border-radius: 1px solid red;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 25px 30px;
+    gap: 20px;
+}
+
+.Courses-div1-box1 img {
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.Courses-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Courses-info h1 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    max-width: 400px;
+}
+
+.Courses-info p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.Courses-info button {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #222222;
+    color: white;
+    font-size: 17px;
+}
+
+.Courses-div1-box1 img:hover {
+    height: 500px;
+}
+
+.Courses-info button:hover {
+    background-color: aqua;
+}
+
+.Mentors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#Mentors {
+    margin-top: 100px;
+}
+
+.Mentors-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.Mentors-div {
+    width: 1000px;
+    height: auto;
+    display: flex;
+    background-color: rgb(46, 46, 46);
+    border-radius: 30px;
+    padding: 20px 20px;
+    gap: 70px;
+}
+
+.Mentors-div img {
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.languages img {
+    width: 50px;
+    height: 50px;
+}
+
+.Mentors-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Mentors-info p {
+    font-size: 22px;
+}
+
+
+#about{
+    margin-top: 100px;
+}
 @media (max-width: 1500px) {
 
     .section1 {
@@ -258,8 +394,35 @@ header {
         align-items: center;
         justify-content: center;
     }
+
+    .Mentors-div {
+        width: 900px;
+    }
 }
 
+@media (max-width: 1000px) {
+    .Courses-div1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Mentors-div {
+        width: 650px;
+    }
+
+    .Mentors-div img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .languages img {
+        width: 50px;
+        height: 50px;
+    }
+
+
+}
 
 
 @media (max-width: 700px) {
@@ -340,5 +503,62 @@ header {
         max-width: 340px;
     }
 
+    .Courses-title {
+        margin-top: 100px;
+    }
+
+
+    .Courses-div1-box1 {
+        width: 350px;
+        height: auto;
+    }
+
+    .Courses-div1-box1 img {
+        width: 300px;
+        height: 350px;
+    }
+
+    .Courses-div1-box1 img:hover {
+        height: 370px;
+    }
+
+    .Courses-info h1 {
+        font-size: 25px;
+        max-width: 400px;
+    }
+
+    .Courses-info p {
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+    }
+
+    .Courses-info {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Courses-title {
+        font-size: 35px;
+    }
+
+    .Mentors-div {
+        width: 340px;
+    }
+
+    .Mentors-div img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .languages img {
+        width: 50px;
+        height: 50px;
+    }
+    .Mentors-div{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
 
 }
