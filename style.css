@@ -338,6 +338,100 @@ header {
     border-radius: 30px;
 }
 
+.SignUP {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.SignUP h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.input input {
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    background-color: #9e9d9d;
+    padding: 20px 20px;
+    font-size: 17px;
+
+}
+
+.SignUP button {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #222222;
+    color: white;
+    font-size: 17px;
+}
+
+.SignUP button:hover {
+    background-color: aqua;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: #1C1C1C;
+    padding: 50px 50px;
+    gap: 100px;
+}
+footer h1{
+    color: rgb(255, 255, 255);
+}
+
+.footer-div1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+  
+}
+
+.footer_imgBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+
+.footer_imgBox img {
+    width: 50px;
+    border-radius: 50px;
+}
+.footer_info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer_info h2{
+    color: white;
+}
+
 @media (max-width: 1500px) {
 
     .section1 {
@@ -591,6 +685,15 @@ header {
 
     .video-div video {
         width: 320px;
+    }
+    footer{
+        gap: 40px;
+        padding: 50px 20px;
+    }
+
+    .footer-div1{
+        align-items: center;
+        justify-content: center;
     }
 
 }
