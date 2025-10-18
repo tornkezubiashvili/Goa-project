@@ -256,6 +256,7 @@ header {
 
 .Courses-div1-box1 img:hover {
     height: 500px;
+    transition: 0.2s all;
 }
 
 .Courses-info button:hover {
